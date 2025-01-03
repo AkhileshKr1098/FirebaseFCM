@@ -6,7 +6,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 const FIREBASE_CREDENTIAL_PATH = process.env.FIREBASE_CREDENTIAL_PATH;
 
-const serviceAccount = require('./servies.json');
+const serviceAccount = require('https://drive.google.com/file/d/1wF0mmy5-XynyfI84f36i0nYNHVxKLUsy/view?usp=sharing');
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
